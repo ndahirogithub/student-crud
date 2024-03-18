@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cute CRUD</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="content">
+        <h2>Cute CRUD - Student Details</h2>
+        <input type="text" id="nameInput" placeholder="Name...">
+        <input type="text" id="regNumberInput" placeholder="Registration Number...">
+        <input type="text" id="departmentInput" placeholder="Department...">
+        <input type="text" id="facultyInput" placeholder="Faculty...">
+        <button class="btn-add" onclick="addStudent()">Add Student</button>
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Registration Number</th>
+                    <th>Department</th>
+                    <th>Faculty</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Student details will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
